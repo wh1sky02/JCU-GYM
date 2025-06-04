@@ -1,29 +1,58 @@
-# Actual iteration-1 board, (see chapters 3 and 4), add your start and end dates 
+# Actual iteration-1 board - JCU Gym Management System
 
-Checklist: 
-1. github entry timestamps
-2. User stories are correct: see p39
+**Start Date:** [Add start date]  
+**End Date:** [Add end date]  
+**Duration:** 3-4 weeks
 
-* Assumed Velocity: ?? 
-* Number of developers: ??
-* Total estimated amount of work: YY days
+## Goal
+Implement core functionality for user registration, session booking, and basic admin features to establish the foundation of the gym management system.
 
-User stories or tasks (see chapter 4):
-1. [user story or task title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
+## Team Details
+* **Assumed Velocity:** 2.5 days per week per developer
+* **Number of developers:** 4
+* **Total estimated amount of work:** 10 days
 
-In progress:
-* Task-2 (developer name or initials), date started
-* ...
+## User Stories for Iteration 1:
 
-Completed:
-* Task-3 (developer name or initials), date completed
-* ...
+1. [User Registration](./user_stories/user_story_01_registration.md), priority High, 3 days 
+   - **Description:** Allow new gym users to register securely online
+   - **Acceptance Criteria:** Registration form, password validation, secure storage
+   
+2. [Session Booking](./user_stories/user_story_02_session_booking.md), priority High, 4 days
+   - **Description:** Enable users to browse and book available gym sessions
+   - **Acceptance Criteria:** Session display, booking form, prevent double-booking
+   
+3. [Admin User Management](./user_stories/user_story_03_admin_management.md), priority High, 3 days
+   - **Description:** Admin dashboard to manage registered users
+   - **Acceptance Criteria:** User listing, approve/reject users, secure admin access
 
-### Burn Down for iteration-1 (see chapter 4):
-Update this at least once per week
-* 4 weeks left, xx days of estimated amount of work 
-* 2 weeks left, xx days
-* 1 weeks left, xx days
-* 0 weeks left, xx days
-* Actual Velocity: ?? 
+## Sprint Backlog Status:
+
+### In Progress:
+* [To be updated during iteration]
+
+### Completed:
+* [To be updated during iteration]
+
+## Burn Down for iteration-1:
+**Update this at least once per week**
+
+* **Week 4 remaining:** 10 days of estimated work remaining
+* **Week 3 remaining:** [Update] days
+* **Week 2 remaining:** [Update] days 
+* **Week 1 remaining:** [Update] days
+* **Week 0 (completion):** 0 days
+* **Actual Velocity:** [To be calculated at end of iteration]
+
+## Key Deliverables:
+- [ ] Working user registration system
+- [ ] Functional session booking interface
+- [ ] Basic admin panel for user management
+- [ ] Database setup and core backend APIs
+- [ ] Basic frontend UI/UX for core features
+
+## Technical Stack:
+- **Frontend:** [To be decided - React/Vue/Angular]
+- **Backend:** [To be decided - Node.js/Python/Java]
+- **Database:** [To be decided - PostgreSQL/MySQL/MongoDB]
+- **Authentication:** [To be decided - JWT/OAuth]
