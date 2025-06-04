@@ -1,4 +1,4 @@
-# User Story: Manage Bookings
+# 🧾 User Story: Manage Bookings
 
 **As a** gym user  
 **I want** to view my upcoming bookings and cancel future sessions (not on the same day)  
@@ -6,78 +6,99 @@
 
 ---
 
-## Priority: Medium  
-**Rationale:** Enhances user experience by providing booking flexibility and reducing no-shows.
+## 🔸 Priority: Medium  
+**Reason:** Improves user autonomy and reduces session no-shows, contributing to better resource management.
 
-## Estimation: 3 days  
-**Planning poker estimates:**
-* Developer 1: 3 days (booking management interface)
-* Developer 2: 2 days (basic cancellation logic)
-* Developer 3: 4 days (including edge cases and notifications)
-* **Consensus:** 3 days
+---
 
-## Assumptions:
-- Users cannot cancel bookings on the same day of the session
-- Cancelled slots become immediately available to other users
-- Users receive confirmation of cancellations
-- Cancellation history is maintained for analytics
+## 🧮 Estimation: 3 Days  
+**Planning Poker Estimates:**  
+- Developer 1: 3 days (dashboard interface)  
+- Developer 2: 2 days (cancellation logic)  
+- Developer 3: 4 days (handling edge cases and feedback)  
+**→ Team Consensus:** 3 days
 
-## Description:
-Provide users with a personal dashboard to view all their upcoming gym bookings and manage them efficiently. Users can cancel future bookings (except same-day) to free up slots for other users. The system must handle cancellation logic and update availability in real-time.
+---
 
-## Acceptance Criteria:
-- [ ] Display a list of all future bookings for the authenticated user
-- [ ] Show booking details (date, time, session type, location)
-- [ ] Cancel option available for bookings not on the same day
-- [ ] Prevent cancellation of same-day bookings with clear messaging
-- [ ] Successful cancellations update the system and release the slot
-- [ ] User receives confirmation of cancellation
-- [ ] Cancelled slots appear as available to other users immediately
-- [ ] Maintain cancellation history for user reference
+## 🔍 Assumptions
 
-## Tasks:
+- Same-day cancellations are not allowed  
+- Cancelled slots become immediately available to others  
+- Users get a confirmation upon cancellation  
+- Cancellations are logged for future analytics
 
-1. **Booking Dashboard Interface** - 1.5 days
-   - Create user booking dashboard
-   - Display upcoming bookings in chronological order
-   - Add booking details and status indicators
-   
-2. **Cancellation Logic & Validation** - 1 day
-   - Implement same-day cancellation prevention
-   - Create cancellation confirmation workflow
-   - Handle cancellation business rules
-   
-3. **Backend Cancellation API** - 0.5 days
-   - Create booking cancellation endpoint
-   - Update session availability in real-time
-   - Implement cancellation logging
-   
-4. **User Feedback & History** - 0.5 days
-   - Add cancellation confirmation messages
-   - Create cancellation history view
-   - Implement user notification system
+---
 
-# UI Design:
-Booking management interface should include:
-- Clean list view of upcoming bookings
-- Clear status indicators (active, cancelled)
-- Easy-to-use cancel buttons with confirmations
-- Same-day booking indicators (non-cancellable)
-- Filter options (upcoming, past, cancelled)
-- Mobile-responsive design
+## 📄 Description
 
-*Note: Insert mockup design screenshot showing booking dashboard and cancellation flow*
+Users should be able to view their personal booking list and manage it through a simple interface. They can cancel any upcoming session, except those scheduled for the current day. The system should ensure real-time slot release, user confirmation, and a history view of past changes.
 
-# Completed:
-*Insert screenshots of completed implementation*
-*Show booking list, cancellation confirmation, updated availability*
+---
 
-## Definition of Done:
-- [ ] All acceptance criteria met
-- [ ] Cancellation rules properly enforced
-- [ ] Real-time availability updates working
-- [ ] User feedback mechanisms functional
-- [ ] Unit and integration tests passing
-- [ ] Edge cases handled appropriately
-- [ ] Code reviewed by team
-- [ ] UI/UX approved by stakeholders 
+## ✅ Acceptance Criteria
+
+- [ ] User dashboard displays all upcoming bookings  
+- [ ] Each booking shows session date, time, type, and location  
+- [ ] Cancel button is visible only for non-same-day bookings  
+- [ ] Attempting to cancel a same-day session shows an error message  
+- [ ] Successful cancellations free the slot for others  
+- [ ] User receives confirmation (in-app or email)  
+- [ ] Cancelled slots are shown as available to other users immediately  
+- [ ] Cancellation history is accessible to the user  
+
+---
+
+## 🧱 Tasks
+
+### 1. Booking Dashboard Interface – 1.5 days
+- Build UI for booking list  
+- Show details: session time, type, location, and status  
+- Indicate which bookings are cancellable  
+
+### 2. Cancellation Logic – 1 day
+- Enforce same-day restriction  
+- Build confirmation modal or popup  
+- Apply backend validation and update booking status  
+
+### 3. Backend Cancellation API – 0.5 day
+- Build endpoint to process cancellations  
+- Update session slot count immediately  
+- Log cancellation event with timestamp  
+
+### 4. Feedback & Notifications – 0.5 day
+- Show confirmation message on successful cancel  
+- Display cancellation history (past actions)  
+- Optionally notify users via email or app alerts  
+
+---
+
+## 🎨 UI Design Guidelines
+
+- Simple and clean booking list view  
+- Visual cues for active vs. cancelled sessions  
+- Confirmation dialogs before finalizing a cancel  
+- Same-day bookings marked as locked/non-cancellable  
+- Filters for "Upcoming", "Past", and "Cancelled"  
+- Responsive for mobile and desktop screens
+
+*Optional: Insert mockup screenshots showing the dashboard and cancel flow*
+
+---
+
+## 📸 Completed Screenshots (To Be Added)
+
+- [ ] Booking dashboard with upcoming sessions  
+- [ ] Cancellation modal and success state  
+- [ ] Updated session availability display
+
+---
+
+## 📦 Definition of Done
+
+- [ ] All acceptance criteria completed  
+- [ ] Cancellations follow business rules  
+- [ ] Slot availability updates in real-time  
+- [ ] User confirmation and history visible  
+- [ ] Unit and integration tests pass  
+- [ ] UI/UX reviewed and approved  
+- [ ] Code merged and deployed to staging  
