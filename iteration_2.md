@@ -1,70 +1,66 @@
-# Actual Iteration-2 Board: JCU Gym Management System
+# ✅ Actual Iteration-2 Board: JCU Gym Management System
 
-**Start Date:** [Add start date]  
-**End Date:** [Add end date]  
-**Iteration Duration:** 3–4 weeks
+**Start Date:** June 25, 2025  
+**End Date:** July 16, 2025  
+**Iteration Duration:** 3 weeks
 
 ---
 
 ## 🔧 Goal
 
-Improve the user and admin experience by adding booking management, a statistics dashboard, and session reminder features. This iteration aims to extend the core system into a more complete and user-friendly solution.
+Enhance user engagement and admin visibility by adding booking analytics, automated session reminders, and a virtual gym tour. This iteration focuses on improving usability and system intelligence based on real usage data.
 
 ---
 
 ## 👥 Team Details
 
-- **Velocity (based on Iteration 1):** [To be updated]  
+- **Velocity per developer:** 2.5 productive days/week  
 - **Team Size:** 4 developers  
-- **Total Estimated Workload:** 10 person-days
+- **Total Estimated Workload:** 30 person-days
 
 ---
 
 ## 📌 User Stories (Iteration 2)
 
-1. **[Manage Bookings](./user_stories/user_story_04_manage_bookings.md)**  
-   - **Priority:** Medium  
-   - **Estimate:** 3 days  
-   - **Description:** Users can view and cancel upcoming bookings (excluding same-day bookings).  
-   - **Acceptance Criteria:**  
-     - Display list of upcoming bookings  
-     - Allow cancellation  
-     - Free up cancelled slots  
-
-2. **[Booking Statistics](./user_stories/user_story_05_booking_statistics.md)**  
+1. **[Booking Statistics](./user_stories/user_story_05_booking_statistics.md)**  
    - **Priority:** Medium  
    - **Estimate:** 4 days  
-   - **Description:** Admin dashboard shows trends in gym usage and booking behavior.  
+   - **Description:** Admins can track gym usage trends through a visual dashboard.  
    - **Acceptance Criteria:**  
-     - Graphs and charts of bookings  
-     - Filter options by date/session  
-     - Clear summary of peak usage  
+     - Graphs and summaries of bookings  
+     - Filters by session type and date range  
+     - Exportable reports (CSV)  
+     - Cancellation rate tracking  
 
-3. **[Session Reminders](./user_stories/user_story_06_session_reminders.md)**  
+2. **[Session Reminders](./user_stories/user_story_06_session_reminders.md)**  
    - **Priority:** Medium  
    - **Estimate:** 3 days  
-   - **Description:** Notify users ahead of their booked gym sessions.  
+   - **Description:** Users receive automated reminders ahead of their booked sessions.  
    - **Acceptance Criteria:**  
-     - Email or in-app notifications  
-     - User opt-in/out settings  
-     - Scheduled delivery system  
+     - Email or in-app reminders  
+     - Admin-defined default timing  
+     - User opt-in/opt-out option  
+     - Delivery confirmation  
 
----
-
-## 💡 Optional Features (If Time Permits)
-
-4. **[Virtual Gym Tour](./user_stories/user_story_07_virtual_tour.md)** – Low Priority – 2 days  
-5. **[AI Workout Trainer](./user_stories/user_story_08_ai_trainer.md)** – Low Priority – 5 days  
+3. **[Virtual Gym Tour](./user_stories/user_story_07_virtual_tour.md)**  
+   - **Priority:** Low  
+   - **Estimate:** 2 days  
+   - **Description:** An online interactive photo tour of the gym for first-time users.  
+   - **Acceptance Criteria:**  
+     - Key areas shown (e.g., equipment zones, locker rooms)  
+     - Works on desktop and mobile  
+     - Optional image captions or labels  
 
 ---
 
 ## 📋 Sprint Backlog Status
 
 ### 🟡 In Progress
-- [To be updated during the iteration]
+- Booking Statistics  
+- Session Reminders  
 
 ### ✅ Completed
-- [To be updated during the iteration]
+- [To be updated during sprint review]
 
 ---
 
@@ -72,41 +68,31 @@ Improve the user and admin experience by adding booking management, a statistics
 
 | Week     | Estimated Days Remaining |
 |----------|--------------------------|
-| Week 4   | 10 days                  |
-| Week 3   | [Update] days            |
+| Week 3   | 10 days                  |
 | Week 2   | [Update] days            |
 | Week 1   | [Update] days            |
 | Week 0   | 0 days                   |
 
-**Actual Velocity:** [To be calculated at end of iteration]
+**Actual Velocity:** To be calculated post-sprint
 
 ---
 
 ## 📦 Key Deliverables
 
-- [ ] User-facing booking management page  
-- [ ] Admin analytics dashboard with visualizations  
-- [ ] Session reminder notifications  
-- [ ] UI/UX improvements based on feedback  
-- [ ] General performance and stability fixes  
-- [ ] Optional: Virtual tour or AI-based trainer features
+- [ ] Admin dashboard with booking analytics  
+- [ ] Automated session reminders  
+- [ ] Interactive virtual gym tour  
+- [ ] Improved mobile experience  
+- [ ] Backend performance improvements  
+- [ ] Optional personalization features
 
 ---
 
-## 🛠️ Technical Enhancements
+## 🛠️ Technical Stack
 
-- [ ] Integrated notification/email service  
-- [ ] Charts and data visualization tools  
-- [ ] Optimized DB queries for dashboard  
-- [ ] Better error messages and validations  
-- [ ] Improved mobile UI responsiveness
-
----
-
-## ✅ Definition of Done
-
-- All acceptance criteria fulfilled  
-- Code reviewed and tested  
-- Documentation updated  
-- Deployed to staging  
-- UAT (User Acceptance Testing) completed
+- **Frontend:** React.js  
+- **Backend:** FastAPI (Python)  
+- **Database:** PostgreSQL  
+- **Analytics:** Chart.js / Plotly  
+- **Notifications:** SMTP / Firebase  
+- **Authentication:** JWT
