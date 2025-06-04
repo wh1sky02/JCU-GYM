@@ -1,58 +1,95 @@
-# Actual iteration-1 board - JCU Gym Management System
+# Actual Iteration-1 Board: JCU Gym Management System
 
 **Start Date:** [Add start date]  
 **End Date:** [Add end date]  
-**Duration:** 3-4 weeks
+**Iteration Duration:** 3–4 weeks
 
-## Goal
-Implement core functionality for user registration, session booking, and basic admin features to establish the foundation of the gym management system.
+---
 
-## Team Details
-* **Assumed Velocity:** 2.5 days per week per developer
-* **Number of developers:** 4
-* **Total estimated amount of work:** 10 days
+## 🔧 Goal
 
-## User Stories for Iteration 1:
+Build the foundation of the JCU Gym Management System by implementing core features: secure user registration, gym session booking, and basic admin user controls. These functionalities will support a working prototype that can handle end-to-end registration and bookings.
 
-1. [User Registration](./user_stories/user_story_01_registration.md), priority High, 3 days 
-   - **Description:** Allow new gym users to register securely online
-   - **Acceptance Criteria:** Registration form, password validation, secure storage
-   
-2. [Session Booking](./user_stories/user_story_02_session_booking.md), priority High, 4 days
-   - **Description:** Enable users to browse and book available gym sessions
-   - **Acceptance Criteria:** Session display, booking form, prevent double-booking
-   
-3. [Admin User Management](./user_stories/user_story_03_admin_management.md), priority High, 3 days
-   - **Description:** Admin dashboard to manage registered users
-   - **Acceptance Criteria:** User listing, approve/reject users, secure admin access
+---
 
-## Sprint Backlog Status:
+## 👥 Team Details
 
-### In Progress:
-* [To be updated during iteration]
+- **Velocity per developer:** 2.5 productive days/week  
+- **Team Size:** 4 developers  
+- **Total Estimated Workload:** 10 person-days (for this sprint)
 
-### Completed:
-* [To be updated during iteration]
+---
 
-## Burn Down for iteration-1:
-**Update this at least once per week**
+## 📌 User Stories (Iteration 1)
 
-* **Week 4 remaining:** 10 days of estimated work remaining
-* **Week 3 remaining:** [Update] days
-* **Week 2 remaining:** [Update] days 
-* **Week 1 remaining:** [Update] days
-* **Week 0 (completion):** 0 days
-* **Actual Velocity:** [To be calculated at end of iteration]
+1. **[User Registration](./user_stories/user_story_01_registration.md)**  
+   - **Priority:** High  
+   - **Estimate:** 3 days  
+   - **Description:** Allow new users to sign up securely with email and password.  
+   - **Acceptance Criteria:**  
+     - Registration form with name, JCU email, and password  
+     - Password validation and hashing  
+     - Confirmation message on successful signup  
+     - Securely store user info in the database  
 
-## Key Deliverables:
-- [ ] Working user registration system
-- [ ] Functional session booking interface
-- [ ] Basic admin panel for user management
-- [ ] Database setup and core backend APIs
-- [ ] Basic frontend UI/UX for core features
+2. **[Session Booking](./user_stories/user_story_02_session_booking.md)**  
+   - **Priority:** High  
+   - **Estimate:** 4 days  
+   - **Description:** Users can view and book available gym sessions.  
+   - **Acceptance Criteria:**  
+     - Display available sessions (date, time, slots)  
+     - Booking form linked to the user  
+     - Store booking data securely  
+     - Prevent double-booking  
 
-## Technical Stack:
-- **Frontend:** [To be decided - React/Vue/Angular]
-- **Backend:** [To be decided - Node.js/Python/Java]
-- **Database:** [To be decided - PostgreSQL/MySQL/MongoDB]
-- **Authentication:** [To be decided - JWT/OAuth]
+3. **[Admin User Management](./user_stories/user_story_03_admin_management.md)**  
+   - **Priority:** High  
+   - **Estimate:** 3 days  
+   - **Description:** Admin dashboard for managing users.  
+   - **Acceptance Criteria:**  
+     - View list of registered users  
+     - Approve or reject new users  
+     - Admin-only secure access  
+
+---
+
+## 📋 Sprint Backlog Status
+
+### 🟡 In Progress
+- [To be updated during the iteration]
+
+### ✅ Completed
+- [To be updated during the iteration]
+
+---
+
+## 📉 Burndown Chart – Iteration 1
+
+| Week     | Estimated Days Remaining |
+|----------|--------------------------|
+| Week 4   | 10 days                  |
+| Week 3   | [Update] days            |
+| Week 2   | [Update] days            |
+| Week 1   | [Update] days            |
+| Week 0   | 0 days                   |
+
+**Actual Velocity:** [To be calculated at the end]
+
+---
+
+## 📦 Key Deliverables
+
+- [ ] Fully functional user registration system  
+- [ ] Gym session booking interface with form and validation  
+- [ ] Admin panel for basic user control  
+- [ ] Backend APIs and database setup  
+- [ ] Simple and clean frontend interface for users and admins
+
+---
+
+## 🛠️ Technical Stack
+
+- **Frontend:** [To be decided – React / Vue / Angular]  
+- **Backend:** [To be decided – Node.js / Python (Django/FastAPI) / Java (Spring)]  
+- **Database:** [To be decided – PostgreSQL / MySQL / MongoDB]  
+- **Authentication:** [To be decided – JWT / OAuth]
