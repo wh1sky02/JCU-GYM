@@ -1,83 +1,105 @@
-# User Story: Session Booking
+# 🧾 User Story: Session Booking
 
 **As a** gym user  
 **I want** to browse available gym sessions and book a timeslot in advance  
-**So that** I can plan my gym visits ahead of time  
+**So that** I can plan my gym visits ahead of time
 
 ---
 
-## Priority: High  
-**Rationale:** Core functionality that provides primary value to gym users and enables gym capacity management.
+## 🔺 Priority: High  
+**Reason:** This is a key user-facing feature and essential for managing gym capacity effectively.
 
-## Estimation: 4 days  
-**Planning poker estimates:**
-* Developer 1: 4 days (complex calendar interface)
-* Developer 2: 3 days (booking logic)
-* Developer 3: 5 days (including edge cases)
-* **Consensus:** 4 days
+---
 
-## Assumptions:
-- Gym operates on fixed time slots (e.g., hourly sessions)
+## 🧮 Estimation: 4 Days  
+**Planning Poker Estimates:**  
+- Developer 1: 4 days (complex calendar interface)  
+- Developer 2: 3 days (booking logic)  
+- Developer 3: 5 days (handling edge cases and concurrency)  
+**→ Team Consensus:** 4 days
+
+---
+
+## 🔍 Assumptions
+
+- Gym sessions run on fixed time slots (e.g., hourly)
 - Each session has a maximum capacity limit
-- Users can only book future sessions (not past dates)
-- Booking requires user authentication
+- Users can only book future sessions
+- Booking requires the user to be logged in
 
-## Description:
-The system will display available gym sessions in a calendar or list format, showing time, date, and available slots. Users can select and book sessions through an intuitive interface. The system must prevent overbooking and handle concurrent booking attempts.
+---
 
-## Acceptance Criteria:
-- [ ] Display list of sessions with time, date, and available slots
-- [ ] Calendar or schedule view showing session availability
-- [ ] Booking form connected to the authenticated user session
-- [ ] Store booking details in the backend database
-- [ ] Prevent double-booking the same timeslot for a user
-- [ ] Prevent overbooking beyond session capacity
-- [ ] Show real-time availability updates
-- [ ] Booking confirmation with session details
-- [ ] Handle concurrent booking attempts gracefully
+## 📄 Description
 
-## Tasks:
+Users will be able to view a list or calendar of upcoming gym sessions with available times and capacity. They can book a slot via a booking form linked to their account. The system must prevent overbooking, manage concurrent bookings, and provide real-time session availability.
 
-1. **Session Display Interface** - 1.5 days
-   - Create calendar/schedule component
-   - Display available sessions with capacity info
-   - Implement filtering and navigation
-   
-2. **Booking Form & Logic** - 1.5 days
-   - Create booking form with session details
-   - Implement booking validation
-   - Handle user authentication checks
-   
-3. **Backend Booking API** - 1 day
-   - Create booking endpoint with capacity checks
-   - Implement concurrent booking prevention
-   - Set up booking confirmation logic
-   
-4. **Database & Real-time Updates** - 1 day
-   - Design booking and session tables
-   - Implement real-time availability updates
-   - Add booking history tracking
+---
 
-# UI Design:
-Booking interface should include:
-- Clean calendar or list view of available sessions
-- Clear indication of available/full sessions
-- Easy-to-use booking form
-- Confirmation modal with booking details
-- Loading states and error handling
-- Mobile-responsive design
+## ✅ Acceptance Criteria
 
-*Note: Insert mockup design screenshot showing calendar view and booking flow*
+- [ ] Calendar or schedule view showing available sessions  
+- [ ] Session cards display time, date, and remaining slots  
+- [ ] Authenticated users can book sessions  
+- [ ] Each booking is stored in the backend  
+- [ ] A user cannot double-book the same timeslot  
+- [ ] Booking is blocked when session capacity is full  
+- [ ] Real-time updates reflect availability changes  
+- [ ] Confirmation message is shown after successful booking  
+- [ ] System handles concurrent booking attempts reliably  
 
-# Completed:
-*Insert screenshots of completed implementation*
-*Show calendar view, booking form, confirmation states*
+---
 
-## Definition of Done:
-- [ ] All acceptance criteria met
-- [ ] Booking prevents overbooking scenarios
-- [ ] Real-time updates working correctly
-- [ ] Unit and integration tests passing
-- [ ] Performance tested under concurrent load
-- [ ] Code reviewed by team
-- [ ] UI/UX approved by stakeholders 
+## 🧱 Tasks
+
+### 1. Session Display UI – 1.5 days
+- Build calendar or schedule view  
+- Show session time, status (available/full), and capacity  
+- Add filters (e.g., by date) and responsive design
+
+### 2. Booking Form & Logic – 1.5 days
+- Implement form for session selection and confirmation  
+- Ensure only logged-in users can book  
+- Add error handling and success feedback
+
+### 3. Backend Booking API – 1 day
+- Create booking endpoint with validation  
+- Check for session capacity before confirming booking  
+- Prevent duplicate bookings by same user
+
+### 4. Database & Realtime Sync – 1 day
+- Design tables for sessions and bookings  
+- Implement availability tracking  
+- Enable real-time updates (e.g., via polling or WebSocket if applicable)
+
+---
+
+## 🎨 UI Design Guidelines
+
+- Intuitive layout with calendar or list view  
+- Session cards with capacity indicators  
+- Simple booking form with confirmation modal  
+- Responsive and accessible design  
+- Real-time updates and visual states (loading, success, error)
+
+*Optional: Add UI mockup screenshots showing session browsing and booking flow*
+
+---
+
+## 📸 Completed Screenshots (To Be Added)
+
+- [ ] Calendar/list view of sessions  
+- [ ] Booking form in action  
+- [ ] Booking success message  
+
+---
+
+## 📦 Definition of Done
+
+- [ ] All acceptance criteria fulfilled  
+- [ ] No overbooking or double-booking allowed  
+- [ ] Booking system works with real-time updates  
+- [ ] Unit and integration tests written and passing  
+- [ ] Code reviewed and merged  
+- [ ] Performance tested under concurrent use  
+- [ ] UI/UX reviewed and approved  
+- [ ] Deployed to staging
