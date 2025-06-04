@@ -20,6 +20,30 @@ This document outlines all user stories for the JCU Gym Management System. Stori
 | 8  | AI Workout Trainer     | As a user, I want personalized workout suggestions to improve my performance.                        | Low      | 5              | Future       |
 
 ---
+## User Stories (Backlog)
+
+- [ ] **User Registration** | Priority: High | Estimate: 3 days  
+  - *Description*: As a new gym user, I want to register securely online so that I can access gym facilities and services.
+
+- [ ] **Session Booking** | Priority: High | Estimate: 4 days  
+  - *Description*: As a gym user, I want to browse available gym sessions and book a timeslot in advance so that I can plan my gym visits ahead of time.
+
+- [ ] **Admin User Management** | Priority: High | Estimate: 3 days  
+  - *Description*: As an admin, I want to view and manage registered gym users so that I can verify and control access to the gym system.
+
+- [ ] **Manage Bookings** | Priority: Medium | Estimate: 3 days  
+  - *Description*: As a gym user, I want to view my upcoming bookings and cancel future sessions (not on the same day) so that I can manage my gym attendance more flexibly.
+
+- [ ] **Booking Statistics** | Priority: Medium | Estimate: 4 days  
+  - *Description*: As an admin, I want to see gym usage data and booking trends so that I can monitor system usage and optimize session availability.
+
+- [ ] **Session Reminders** | Priority: Medium | Estimate: 3 days  
+  - *Description*: As a gym user, I want to receive a reminder before my booked session so that I don't miss my workouts.
+
+- [ ] **Virtual Gym Tour** | Priority: Low | Estimate: 2 days  
+  - *Description*: As a gym user, I want to explore a virtual tour of the gym facilities online so that I can familiarize myself with the gym layout and equipment before visiting.
+
+---
 
 ## 🧭 Iteration Breakdown
 
@@ -30,27 +54,19 @@ This document outlines all user stories for the JCU Gym Management System. Stori
 - ✅ User Registration – 3 days  
 - ✅ Session Booking – 4 days  
 - ✅ Admin User Management – 3 days  
-
+- ✅ Manage Bookings – 3 days
 ---
 
 ### 🔹 Iteration 2 (10 days total)
 
 **Goal:** Enhance user engagement and admin visibility through booking management, analytics, and reminders.
 
-- ⏳ Manage Bookings – 3 days  
 - ⏳ Booking Statistics – 4 days  
-- ⏳ Session Reminders – 3 days  
+- ⏳ Session Reminders – 3 days
+- ⏳ Virtual Gym Tour – 2 days  
 
 ---
 
-### 🔹 Future Iterations (7 days total)
-
-**Goal:** Optional enhancements to elevate user experience with advanced and engaging features.
-
-- 🔜 Virtual Gym Tour – 2 days  
-- 🔜 AI Workout Trainer – 5 days  
-
----
 
 ## 👤 User Roles
 
@@ -66,16 +82,3 @@ This document outlines all user stories for the JCU Gym Management System. Stori
 - Maintain user records and monitor system activity  
 
 ---
-
-## 📁 Detailed User Stories
-
-Each story contains clear acceptance criteria and implementation notes. See the individual Markdown files in the [user_stories](./user_stories/) directory:
-
-1. [User Registration](./user_stories/user_story_01_registration.md)  
-2. [Session Booking](./user_stories/user_story_02_session_booking.md)  
-3. [Admin User Management](./user_stories/user_story_03_admin_management.md)  
-4. [Manage Bookings](./user_stories/user_story_04_manage_bookings.md)  
-5. [Booking Statistics](./user_stories/user_story_05_booking_statistics.md)  
-6. [Session Reminders](./user_stories/user_story_06_session_reminders.md)  
-7. [Virtual Gym Tour](./user_stories/user_story_07_virtual_tour.md)  
-8. [AI Workout Trainer](./user_stories/user_story_08_ai_trainer.md)  
