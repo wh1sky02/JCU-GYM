@@ -79,7 +79,3 @@ Each story contains clear acceptance criteria and implementation notes. See the 
 6. [Session Reminders](./user_stories/user_story_06_session_reminders.md)  
 7. [Virtual Gym Tour](./user_stories/user_story_07_virtual_tour.md)  
 8. [AI Workout Trainer](./user_stories/user_story_08_ai_trainer.md)  
-
----
-
-Let me know if you'd like this split into files or turned into a PDF or README.
