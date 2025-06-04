@@ -1,14 +1,14 @@
-# Actual Iteration-1 Board: JCU Gym Management System
+# ✅ Actual Iteration-1 Board: JCU Gym Management System
 
-**Start Date:** [Add start date]  
-**End Date:** [Add end date]  
-**Iteration Duration:** 3–4 weeks
+**Start Date:** June 3, 2025  
+**End Date:** June 24, 2025  
+**Iteration Duration:** 3 weeks
 
 ---
 
 ## 🔧 Goal
 
-Build the foundation of the JCU Gym Management System by implementing core features: secure user registration, gym session booking, and basic admin user controls. These functionalities will support a working prototype that can handle end-to-end registration and bookings.
+Develop the foundational features of the JCU Gym Management System, including user registration, gym session booking, and admin controls. These features will allow a functional prototype with secure user access and booking flow.
 
 ---
 
@@ -16,7 +16,7 @@ Build the foundation of the JCU Gym Management System by implementing core featu
 
 - **Velocity per developer:** 2.5 productive days/week  
 - **Team Size:** 4 developers  
-- **Total Estimated Workload:** 10 person-days (for this sprint)
+- **Total Estimated Workload:** 30 person-days
 
 ---
 
@@ -29,8 +29,8 @@ Build the foundation of the JCU Gym Management System by implementing core featu
    - **Acceptance Criteria:**  
      - Registration form with name, JCU email, and password  
      - Password validation and hashing  
-     - Confirmation message on successful signup  
-     - Securely store user info in the database  
+     - Confirmation on successful signup  
+     - Store user data securely in the database  
 
 2. **[Session Booking](./user_stories/user_story_02_session_booking.md)**  
    - **Priority:** High  
@@ -38,28 +38,40 @@ Build the foundation of the JCU Gym Management System by implementing core featu
    - **Description:** Users can view and book available gym sessions.  
    - **Acceptance Criteria:**  
      - Display available sessions (date, time, slots)  
-     - Booking form linked to the user  
-     - Store booking data securely  
+     - Booking form linked to user  
      - Prevent double-booking  
+     - Securely store booking data  
 
 3. **[Admin User Management](./user_stories/user_story_03_admin_management.md)**  
    - **Priority:** High  
    - **Estimate:** 3 days  
    - **Description:** Admin dashboard for managing users.  
    - **Acceptance Criteria:**  
-     - View list of registered users  
-     - Approve or reject new users  
-     - Admin-only secure access  
+     - View all registered users  
+     - Approve or reject users  
+     - Secure admin-only access  
+
+4. **[Manage Bookings](./user_stories/user_story_04_manage_bookings.md)**  
+   - **Priority:** Medium  
+   - **Estimate:** 3 days  
+   - **Description:** Let users view and cancel upcoming gym bookings.  
+   - **Acceptance Criteria:**  
+     - Display all upcoming bookings  
+     - Allow cancellation for non-same-day sessions  
+     - Update session availability in real-time  
+     - Send cancellation confirmation  
 
 ---
 
 ## 📋 Sprint Backlog Status
 
 ### 🟡 In Progress
-- [To be updated during the iteration]
+- Session Booking  
+- Manage Bookings  
 
 ### ✅ Completed
-- [To be updated during the iteration]
+- User Registration  
+- Admin User Management  
 
 ---
 
@@ -67,29 +79,29 @@ Build the foundation of the JCU Gym Management System by implementing core featu
 
 | Week     | Estimated Days Remaining |
 |----------|--------------------------|
-| Week 4   | 10 days                  |
-| Week 3   | [Update] days            |
-| Week 2   | [Update] days            |
-| Week 1   | [Update] days            |
+| Week 3   | 10 days                  |
+| Week 2   | 7 days                   |
+| Week 1   | 3 days                   |
 | Week 0   | 0 days                   |
 
-**Actual Velocity:** [To be calculated at the end]
+**Actual Velocity:** To be calculated post-sprint
 
 ---
 
 ## 📦 Key Deliverables
 
-- [ ] Fully functional user registration system  
-- [ ] Gym session booking interface with form and validation  
-- [ ] Admin panel for basic user control  
-- [ ] Backend APIs and database setup  
-- [ ] Simple and clean frontend interface for users and admins
+- [x] Fully functional user registration system  
+- [x] Admin panel for user control  
+- [ ] Gym session booking flow  
+- [ ] Booking cancellation feature  
+- [ ] Backend APIs + database setup  
+- [ ] Clean user/admin interface
 
 ---
 
 ## 🛠️ Technical Stack
 
-- **Frontend:** [To be decided – React / Vue / Angular]  
-- **Backend:** [To be decided – Node.js / Python (Django/FastAPI) / Java (Spring)]  
-- **Database:** [To be decided – PostgreSQL / MySQL / MongoDB]  
-- **Authentication:** [To be decided – JWT / OAuth]
+- **Frontend:** React.js  
+- **Backend:** FastAPI (Python)  
+- **Database:** PostgreSQL  
+- **Authentication:** JWT
