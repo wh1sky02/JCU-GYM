@@ -63,7 +63,7 @@ Develop the foundational features of the JCU Gym Management System, including us
 
 ---
 
-## 🗓️ Practical 4: Iteration1-week2 Execution & Tracking
+## 🗓️ Practical 4: Iteration1-week4 Execution & Tracking
 
 ### 🎯 Objective
 Start development and track progress based on Agile practices from Chapter 4.
@@ -118,6 +118,7 @@ Each task is tracked using GitHub labels:
 
 | Week     | Estimated Days Remaining |
 |----------|--------------------------|
+| Week 4   | 8 days                   |
 | Week 3   | 10 days                  |
 | Week 2   | 7 days                   |
 | Week 1   | 3 days                   |
