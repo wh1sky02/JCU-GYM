@@ -53,44 +53,6 @@ Enhance user engagement and admin visibility by adding booking analytics, automa
 
 ---
 
-## 🗓️ Practical 4: Iteration2-week4 Execution & Tracking
-
-### 🎯 Objective
-Start development and track progress based on Agile practices from Chapter 4.
-
-### 🛠️ How We Applied It
-
-#### ✅ 1. Split User Stories into Tasks  
-Each user story has been broken down into detailed GitHub issues under the `/issues` tab:
-- UI components (booking stats, reminders)
-- Backend endpoints (FastAPI)
-- Notification system (SMTP/Firebase)
-- Interactive media for the virtual tour
-
-#### ✅ 2. Monitor Tasks with Labels  
-Each task is tracked using GitHub labels:
-- `todo`
-- `in-progress`
-- `done`
-
-#### ✅ 3. Use GitHub Features  
-- All issues are assigned to team members with deadlines  
-- Status updates are posted in each issue thread  
-- GitHub Projects board is used for visual tracking
-
-#### ✅ 4. Commit Daily with Meaningful Messages  
-- Team commits follow this format:  
-  `feat: add booking stats dashboard`  
-  `fix: session reminder delivery bug`  
-  `chore: update README and schema`
-
-#### ✅ 5. Use Pull Requests  
-- All major features go through pull requests for review  
-- Comments and suggestions are made before merging to `main`  
-- Ensures code quality and consistency across the team
-
----
-
 ## 📋 Sprint Backlog Status
 
 ### 🟡 In Progress
@@ -134,3 +96,64 @@ Each task is tracked using GitHub labels:
 - **Analytics:** Chart.js / Plotly  
 - **Notifications:** SMTP / Firebase  
 - **Authentication:** JWT
+
+---
+
+## 📌 User Stories (Iteration 2)
+
+### 1. Booking Statistics (4 days)
+- **Priority:** Medium
+- **Estimate:** 4 days
+- **Description:** Admins can track gym usage trends through a visual dashboard.
+- **Acceptance Criteria:**
+  - Graphs and summaries of bookings
+  - Filters by session type and date range
+  - Exportable reports (CSV)
+  - Cancellation rate tracking
+
+#### Tasks:
+- **Task 1:** Set up database queries to fetch booking data (TODO)
+- **Task 2:** Design dashboard layout for booking statistics (TODO)
+- **Task 3:** Implement graphs and visualizations (In Progress)
+- **Task 4:** Implement filters by session type and date range (TODO)
+- **Task 5:** Add export functionality for reports in CSV format (TODO)
+- **Task 6:** Implement cancellation rate tracking (TODO)
+- **Task 7:** Test dashboard functionality and responsiveness (TODO)
+
+---
+
+### 2. Session Reminders (3 days)
+- **Priority:** Medium
+- **Estimate:** 3 days
+- **Description:** Users receive automated reminders ahead of their booked sessions.
+- **Acceptance Criteria:**
+  - Email or in-app reminders
+  - Admin-defined default timing
+  - User opt-in/opt-out option
+  - Delivery confirmation
+
+#### Tasks:
+- **Task 1:** Create automated email reminder system (TODO)
+- **Task 2:** Set up in-app notification reminder system (TODO)
+- **Task 3:** Define admin configuration for reminder timing (TODO)
+- **Task 4:** Implement user opt-in/opt-out options (TODO)
+- **Task 5:** Implement delivery confirmation for reminders (TODO)
+- **Task 6:** Test reminder notifications (TODO)
+
+---
+
+### 3. Virtual Gym Tour (2 days)
+- **Priority:** Low
+- **Estimate:** 2 days
+- **Description:** An online interactive photo tour of the gym for first-time users.
+- **Acceptance Criteria:**
+  - Key areas shown (e.g., equipment zones, locker rooms)
+  - Works on desktop and mobile
+  - Optional image captions or labels
+
+#### Tasks:
+- **Task 1:** Capture interactive photos of gym areas (TODO)
+- **Task 2:** Develop interactive viewing functionality (In Progress)
+- **Task 3:** Create optional captions/labels for images (TODO)
+- **Task 4:** Optimize photo tour for mobile and desktop (TODO)
+- **Task 5:** Test tour functionality on different devices (TODO)
