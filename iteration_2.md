@@ -53,6 +53,44 @@ Enhance user engagement and admin visibility by adding booking analytics, automa
 
 ---
 
+## 🗓️ Practical 4: Iteration2-week4 Execution & Tracking
+
+### 🎯 Objective
+Start development and track progress based on Agile practices from Chapter 4.
+
+### 🛠️ How We Applied It
+
+#### ✅ 1. Split User Stories into Tasks  
+Each user story has been broken down into detailed GitHub issues under the `/issues` tab:
+- UI components (booking stats, reminders)
+- Backend endpoints (FastAPI)
+- Notification system (SMTP/Firebase)
+- Interactive media for the virtual tour
+
+#### ✅ 2. Monitor Tasks with Labels  
+Each task is tracked using GitHub labels:
+- `todo`
+- `in-progress`
+- `done`
+
+#### ✅ 3. Use GitHub Features  
+- All issues are assigned to team members with deadlines  
+- Status updates are posted in each issue thread  
+- GitHub Projects board is used for visual tracking
+
+#### ✅ 4. Commit Daily with Meaningful Messages  
+- Team commits follow this format:  
+  `feat: add booking stats dashboard`  
+  `fix: session reminder delivery bug`  
+  `chore: update README and schema`
+
+#### ✅ 5. Use Pull Requests  
+- All major features go through pull requests for review  
+- Comments and suggestions are made before merging to `main`  
+- Ensures code quality and consistency across the team
+
+---
+
 ## 📋 Sprint Backlog Status
 
 ### 🟡 In Progress
@@ -60,7 +98,7 @@ Enhance user engagement and admin visibility by adding booking analytics, automa
 - Session Reminders  
 
 ### ✅ Completed
-- [To be updated during sprint review]
+- Virtual Gym Tour (to be updated during sprint review)
 
 ---
 
@@ -96,37 +134,3 @@ Enhance user engagement and admin visibility by adding booking analytics, automa
 - **Analytics:** Chart.js / Plotly  
 - **Notifications:** SMTP / Firebase  
 - **Authentication:** JWT
-
----
-
-## 🗓️ Week 4 Action Plan
-
-### Tasks:
-- **Finalize User Story D (Booking Statistics)**  
-   - Ensure full functionality of graphs, summaries, and data export features.
-   - Review any potential UX issues related to session types or date filtering.
-   
-- **Complete User Story E (Session Reminders)**  
-   - Ensure notifications are working for both email and in-app formats.
-   - Confirm user opt-in/opt-out works smoothly.
-   
-- **Begin User Story F (Virtual Gym Tour)**  
-   - Make sure key areas of the gym are covered and that the interface works on both mobile and desktop.
-
-### Tracking & Monitoring:
-- **GitHub Tracking**: Update the status of tasks using GitHub’s “issues” feature.
-  - Label issues appropriately: `to-do`, `in-progress`, `done`.
-  - Use milestones to organize tasks by iteration.
-  - Assign issues to the responsible team members.
-
-- **Daily Commit & Code Review**:
-  - Commit daily with meaningful messages that describe changes.
-  - Experiment with pull requests for code review and merging changes.
-
----
-
-## 🧩 Sprint Review Preparation (End of Week 4)
-
-- **Review Deliverables**: Confirm all key deliverables are met (e.g., booking analytics dashboard, session reminders, virtual tour).
-- **Testing**: Conduct testing, especially for mobile responsiveness, data accuracy, and notification delivery.
-- **Gather Feedback**: Get feedback from admins and users regarding the new features to gauge effectiveness.
