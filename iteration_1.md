@@ -63,6 +63,45 @@ Develop the foundational features of the JCU Gym Management System, including us
 
 ---
 
+## 🗓️ Practical 4: Iteration1-week2 Execution & Tracking
+
+### 🎯 Objective
+Start development and track progress based on Agile practices from Chapter 4.
+
+### 🛠️ How We Applied It
+
+#### ✅ 1. Split User Stories into Tasks  
+Each user story has been broken down into detailed GitHub issues under the `/issues` tab:
+- UI forms (registration, booking)
+- Backend endpoints (FastAPI)
+- Database operations (PostgreSQL)
+- Authentication (JWT)
+- Admin routes and logic
+
+#### ✅ 2. Monitor Tasks with Labels  
+Each task is tracked using GitHub labels:
+- `todo`
+- `in-progress`
+- `done`
+
+#### ✅ 3. Use GitHub Features  
+- All issues are assigned to team members with deadlines  
+- Status updates are posted in each issue thread  
+- GitHub Projects board is used for visual tracking
+
+#### ✅ 4. Commit Daily with Meaningful Messages  
+- Team commits follow this format:  
+  `feat: add booking endpoint`  
+  `fix: registration validation bug`  
+  `chore: update README and schema diagram`
+
+#### ✅ 5. Use Pull Requests  
+- All major features go through pull requests for review  
+- Comments and suggestions are made before merging to `main`  
+- Ensures code quality and consistency across the team
+
+---
+
 ## 📋 Sprint Backlog Status
 
 ### 🟡 In Progress
@@ -84,7 +123,7 @@ Develop the foundational features of the JCU Gym Management System, including us
 | Week 1   | 3 days                   |
 | Week 0   | 0 days                   |
 
-**Actual Velocity:** To be calculated post-sprint
+**Actual Velocity:** Will be calculated at the end of the iteration.
 
 ---
 
@@ -95,7 +134,9 @@ Develop the foundational features of the JCU Gym Management System, including us
 - [ ] Gym session booking flow  
 - [ ] Booking cancellation feature  
 - [ ] Backend APIs + database setup  
-- [ ] Clean user/admin interface
+- [ ] Clean user/admin interface  
+- [ ] GitHub project board tracking  
+- [ ] Pull request and issue workflows established
 
 ---
 
@@ -104,4 +145,5 @@ Develop the foundational features of the JCU Gym Management System, including us
 - **Frontend:** React.js  
 - **Backend:** FastAPI (Python)  
 - **Database:** PostgreSQL  
-- **Authentication:** JWT
+- **Authentication:** JWT  
+- **Tracking:** GitHub Issues, Labels, Pull Requests, Projects
