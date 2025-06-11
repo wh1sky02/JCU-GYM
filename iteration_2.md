@@ -68,12 +68,12 @@ Enhance user engagement and admin visibility by adding booking analytics, automa
 
 | Week     | Estimated Days Remaining |
 |----------|--------------------------|
+| Week 4   | 4 days                   |
 | Week 3   | 10 days                  |
-| Week 2   | [Update] days            |
-| Week 1   | [Update] days            |
-| Week 0   | 0 days                   |
+| Week 2   | 7 days                   |
+| Week 1   | 0 days                   |
 
-**Actual Velocity:** To be calculated post-sprint
+**Actual Velocity:** 2.4 person-days/week (calculated post-sprint)
 
 ---
 
@@ -96,3 +96,37 @@ Enhance user engagement and admin visibility by adding booking analytics, automa
 - **Analytics:** Chart.js / Plotly  
 - **Notifications:** SMTP / Firebase  
 - **Authentication:** JWT
+
+---
+
+## 🗓️ Week 4 Action Plan
+
+### Tasks:
+- **Finalize User Story D (Booking Statistics)**  
+   - Ensure full functionality of graphs, summaries, and data export features.
+   - Review any potential UX issues related to session types or date filtering.
+   
+- **Complete User Story E (Session Reminders)**  
+   - Ensure notifications are working for both email and in-app formats.
+   - Confirm user opt-in/opt-out works smoothly.
+   
+- **Begin User Story F (Virtual Gym Tour)**  
+   - Make sure key areas of the gym are covered and that the interface works on both mobile and desktop.
+
+### Tracking & Monitoring:
+- **GitHub Tracking**: Update the status of tasks using GitHub’s “issues” feature.
+  - Label issues appropriately: `to-do`, `in-progress`, `done`.
+  - Use milestones to organize tasks by iteration.
+  - Assign issues to the responsible team members.
+
+- **Daily Commit & Code Review**:
+  - Commit daily with meaningful messages that describe changes.
+  - Experiment with pull requests for code review and merging changes.
+
+---
+
+## 🧩 Sprint Review Preparation (End of Week 4)
+
+- **Review Deliverables**: Confirm all key deliverables are met (e.g., booking analytics dashboard, session reminders, virtual tour).
+- **Testing**: Conduct testing, especially for mobile responsiveness, data accuracy, and notification delivery.
+- **Gather Feedback**: Get feedback from admins and users regarding the new features to gauge effectiveness.
