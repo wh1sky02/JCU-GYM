@@ -63,45 +63,6 @@ Develop the foundational features of the JCU Gym Management System, including us
 
 ---
 
-## 🗓️ Practical 4: Iteration1-week4 Execution & Tracking
-
-### 🎯 Objective
-Start development and track progress based on Agile practices from Chapter 4.
-
-### 🛠️ How We Applied It
-
-#### ✅ 1. Split User Stories into Tasks  
-Each user story has been broken down into detailed GitHub issues under the `/issues` tab:
-- UI forms (registration, booking)
-- Backend endpoints (FastAPI)
-- Database operations (PostgreSQL)
-- Authentication (JWT)
-- Admin routes and logic
-
-#### ✅ 2. Monitor Tasks with Labels  
-Each task is tracked using GitHub labels:
-- `todo`
-- `in-progress`
-- `done`
-
-#### ✅ 3. Use GitHub Features  
-- All issues are assigned to team members with deadlines  
-- Status updates are posted in each issue thread  
-- GitHub Projects board is used for visual tracking
-
-#### ✅ 4. Commit Daily with Meaningful Messages  
-- Team commits follow this format:  
-  `feat: add booking endpoint`  
-  `fix: registration validation bug`  
-  `chore: update README and schema diagram`
-
-#### ✅ 5. Use Pull Requests  
-- All major features go through pull requests for review  
-- Comments and suggestions are made before merging to `main`  
-- Ensures code quality and consistency across the team
-
----
-
 ## 📋 Sprint Backlog Status
 
 ### 🟡 In Progress
@@ -148,3 +109,80 @@ Each task is tracked using GitHub labels:
 - **Database:** PostgreSQL  
 - **Authentication:** JWT  
 - **Tracking:** GitHub Issues, Labels, Pull Requests, Projects
+
+---
+
+## 📌 User Stories (Iteration 1)
+
+### 1. User Registration (3 days)
+- **Priority:** High
+- **Estimate:** 3 days
+- **Description:** Allow new users to sign up securely with email and password.
+- **Acceptance Criteria:**
+  - Registration form with name, JCU email, and password
+  - Password validation and hashing
+  - Confirmation on successful signup
+  - Store user data securely in the database
+
+#### Tasks:
+- **Task 1:** Design and implement registration form (TODO)
+- **Task 2:** Implement email and password validation (TODO)
+- **Task 3:** Implement password hashing for security (TODO)
+- **Task 4:** Implement confirmation on successful signup (TODO)
+- **Task 5:** Store user data securely in the database (TODO)
+- **Task 6:** Test registration flow (TODO)
+
+---
+
+### 2. Session Booking (4 days)
+- **Priority:** High
+- **Estimate:** 4 days
+- **Description:** Users can view and book available gym sessions.
+- **Acceptance Criteria:**
+  - Display available sessions (date, time, slots)
+  - Booking form linked to user
+  - Prevent double-booking
+  - Securely store booking data
+
+#### Tasks:
+- **Task 1:** Display available sessions on the UI (TODO)
+- **Task 2:** Implement session booking form linked to user (TODO)
+- **Task 3:** Implement session availability check to prevent double-booking (TODO)
+- **Task 4:** Store booking data securely in the database (TODO)
+- **Task 5:** Test booking functionality (TODO)
+
+---
+
+### 3. Admin User Management (3 days)
+- **Priority:** High
+- **Estimate:** 3 days
+- **Description:** Admin dashboard for managing users.
+- **Acceptance Criteria:**
+  - View all registered users
+  - Approve or reject users
+  - Secure admin-only access
+
+#### Tasks:
+- **Task 1:** Design and implement admin dashboard (TODO)
+- **Task 2:** Implement user approval/rejection functionality (TODO)
+- **Task 3:** Implement secure admin-only access to the dashboard (TODO)
+- **Task 4:** Test admin dashboard functionality (TODO)
+
+---
+
+### 4. Manage Bookings (3 days)
+- **Priority:** Medium
+- **Estimate:** 3 days
+- **Description:** Let users view and cancel upcoming gym bookings.
+- **Acceptance Criteria:**
+  - Display all upcoming bookings
+  - Allow cancellation for non-same-day sessions
+  - Update session availability in real-time
+  - Send cancellation confirmation
+
+#### Tasks:
+- **Task 1:** Display user's upcoming bookings on the UI (TODO)
+- **Task 2:** Implement cancellation functionality for non-same-day sessions (TODO)
+- **Task 3:** Implement real-time session availability update (TODO)
+- **Task 4:** Send cancellation confirmation to users (TODO)
+- **Task 5:** Test booking management and cancellation functionality (TODO)
