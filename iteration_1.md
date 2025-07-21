@@ -1,3 +1,28 @@
+### ✅ Iteration 1: Done and Dusted
+
+**Finished on:** June 24, 2025  
+**Total Work Done:** 30 person-days  
+**Team Velocity:** Around 2.5 productive days per developer each week  
+
+---
+
+#### 🗂️ What We’ve Checked Off
+
+- [x] Built and tested all user stories  
+- [x] Completed everything in the sprint backlog  
+- [x] Created burndown and velocity charts  
+- [x] Functional prototype up and running  
+- [x] GitHub board and workflows are in place  
+
+---
+
+### 📝 Wrap-up Notes
+
+We hit our targets and got the core features working smoothly.  
+No major blockers this sprint, and progress stayed steady throughout.  
+Some improvements like polishing the interface and UX tweaks will carry over into Iteration 2.
+
+---
 # ✅ Actual Iteration-1 Board: JCU Gym Management System
 
 **Start Date:** June 3, 2025  
