@@ -291,123 +291,9 @@ class CloudDatabase {
 - **Database**: pg and pg-pool for PostgreSQL connection
 - **Security**: bcryptjs and jsonwebtoken
 
-## 6. Setup & Deployment Guide
 
-### Prerequisites
-- Node.js 18.x or higher
-- Git
-- PostgreSQL 14+ (for local development)
-- npm or yarn
-- A Neon.tech account
 
-### Development Environment Setup
-
-1. **Clone & Install**
-   ```bash
-   # Clone repository
-   git clone https://github.com/your-org/jcu-gym-management.git
-   cd jcu-gym-management
-
-   # Install dependencies
-   npm install
-   ```
-
-2. **Environment Configuration**
-   ```bash
-   # Create .env.local file
-   cp .env.example .env.local
-
-   # Required environment variables
-   DATABASE_URL=postgres://[USER]:[PASSWORD]@[HOST]/[DATABASE]?sslmode=require
-   JWT_SECRET=your-secure-secret-key
-   NEXT_PUBLIC_API_URL=http://localhost:3000/api
-   NODE_ENV=development
-   ```
-
-3. **Database Setup**
-   ```bash
-   # Option 1: Using setup script
-   npm run db:setup
-
-   # Option 2: Manual setup
-   psql -d your_database -f neon-schema.sql
-   ```
-
-4. **Start Development Server**
-   ```bash
-   npm run dev
-   # Server will start at http://localhost:3000
-   ```
-
-### Production Deployment
-
-#### 1. Vercel Deployment (Recommended)
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy to Vercel
-vercel
-```
-
-#### 2. Manual Production Setup
-```bash
-# Build application
-npm run build
-
-# Start production server
-npm start
-```
-
-#### Required Production Environment Variables
-```bash
-DATABASE_URL=       # Production database URL
-JWT_SECRET=        # Secure random string
-NODE_ENV=production
-NEXT_PUBLIC_API_URL= # Production API URL
-```
-
-### Deployment Checklist
-
-- [ ] **Security**
-  - [ ] Update JWT secret
-  - [ ] Enable SSL/TLS
-  - [ ] Configure CORS
-  - [ ] Set secure headers
-
-- [ ] **Database**
-  - [ ] Run migrations
-  - [ ] Verify indexes
-  - [ ] Set up backups
-  - [ ] Configure pooling
-
-- [ ] **Monitoring**
-  - [ ] Setup error tracking
-  - [ ] Configure logging
-  - [ ] Enable performance monitoring
-  - [ ] Set up alerts
-
-### Health Check Endpoints
-
-```bash
-# API Health
-GET /api/health
-
-# Database Health
-GET /api/health/db
-
-Response Format:
-{
-  "status": "healthy|degraded|unhealthy",
-  "timestamp": "ISO-8601",
-  "services": {
-    "database": "connected|disconnected",
-    "cache": "available|unavailable"
-  }
-}
-```
-
-## 7. Custom Utilities & Hooks
+## 6. Custom Utilities & Hooks
 
 ### Custom Hooks
 - \`use-mobile.tsx\`: Responsive design detection
@@ -420,7 +306,7 @@ Located in `/lib/utils.ts`:
 - Date formatting
 - Authentication helpers
 
-## 8. Performance & Security
+## 7. Performance & Security
 
 ### Security Measures
 
@@ -484,7 +370,7 @@ Located in `/lib/utils.ts`:
   - Efficient constraints and foreign keys
   - Performance-oriented table partitioning for historical data
 
-## 9. Summary & Design Decisions
+## 8. Summary & Design Decisions
 
 The technology stack was chosen to provide:
 
@@ -564,50 +450,6 @@ The technology stack was chosen to provide:
      - Clear separation of concerns
      - Easy to extend and modify
 
-## 10. Known Limitations & Future Improvements
-
-1. **Potential Enhancements**
-
-   - **Real-time Updates using WebSockets**
-     - Live booking status updates
-     - Instant notification delivery
-     - Real-time dashboard metrics
-     - Interactive user features
-
-   - **Enhanced Analytics Dashboard**
-     - Advanced usage metrics
-     - Predictive analytics
-     - Custom report generation
-     - Visual data representation
-
-   - **Mobile Application**
-     - Native mobile experience
-     - Push notifications
-     - Offline capabilities
-     - Biometric authentication
-
-   - **Automated Testing Suite**
-     - End-to-end testing
-     - Integration tests
-     - Performance testing
-     - Automated deployment pipeline
-
-2. **Current Limitations**
-
-   - **Limited Payment Gateway Integration**
-     - Basic payment processing
-     - Limited payment methods
-     - No recurring billing
-     - Manual refund processing
-
-   - **Basic Notification System**
-     - Email-only notifications
-     - No push notifications
-     - Limited customization
-     - Basic templating system
-
-   - **Manual Session Management**
-     - No automatic session creation
      - Manual capacity adjustment
      - Basic conflict resolution
      - Limited recurring session support
