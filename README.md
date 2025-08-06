@@ -46,6 +46,8 @@
 | **Thant Thu Aung** | Full-Stack Developer, SCRUM Coordinator, Docs Lead    | User login/registration, profile management, sprint planning, GitHub tracking, reporting |
 | **Sein Linnn**     | Full-Stack Developer, System Designer                 | Session booking, admin features, system architecture, analytics, reminders, virtual tour |
 
+---
+
 # JCU Gym Management System
 
 This project is a web application prototype for managing gym membership, booking, and administration at James Cook University (JCU) Singapore campus.
