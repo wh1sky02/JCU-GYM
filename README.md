@@ -3,6 +3,24 @@
 ### **Class - B**
 ### **Group - 4**
 
+### **Sein Linnn** (Student ID: 14742770)  
+**Role:** Full-Stack Developer and System Designer  
+
+**Responsibilities:**
+
+- **Full-Stack Development:**  
+  Implemented the core functionalities of the Gym Management System, including **session booking**, **booking management (view/cancel)**, **admin dashboard**, **analytics dashboard**, **session reminders**, and the **virtual gym tour**. Handled both backend and frontend components using **FastAPI**, **React.js**, and **PostgreSQL**. Integrated **Chart.js** for data visualization.
+
+- **System Design:**  
+  Designed the overall system architecture, including the database schema and API structure. Planned how frontend components communicate with the backend and ensured scalability, maintainability, and performance across the application.
+
+**Key Contributions:**
+- Developed and integrated all booking and admin-related features.
+- Designed and implemented the analytics and reminder systems.
+- Provided architectural structure and technical direction for the project.
+
+---
+
 ### **Thant Thu Aung** (Student ID: 14674144)  
 **Role:** Full-Stack Developer, SCRUM Coordinator, and Documentation Lead  
 
@@ -24,23 +42,6 @@
 
 ---
 
-### **Sein Linnn** (Student ID: 14742770)  
-**Role:** Full-Stack Developer and System Designer  
-
-**Responsibilities:**
-
-- **Full-Stack Development:**  
-  Implemented the core functionalities of the Gym Management System, including **session booking**, **booking management (view/cancel)**, **admin dashboard**, **analytics dashboard**, **session reminders**, and the **virtual gym tour**. Handled both backend and frontend components using **FastAPI**, **React.js**, and **PostgreSQL**. Integrated **Chart.js** for data visualization.
-
-- **System Design:**  
-  Designed the overall system architecture, including the database schema and API structure. Planned how frontend components communicate with the backend and ensured scalability, maintainability, and performance across the application.
-
-**Key Contributions:**
-- Developed and integrated all booking and admin-related features.
-- Designed and implemented the analytics and reminder systems.
-- Provided architectural structure and technical direction for the project.
-
----
 
 ## ✅ Team Summary
 
