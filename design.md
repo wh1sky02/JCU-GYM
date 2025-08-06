@@ -34,6 +34,10 @@ The database schema consists of the following core entities:
 - Bookings can have associated Reminders and Cancellations
 - Admins manage Users, Sessions, and system configuration
 
+### Prototype
+![Prototype](prototype.png)
+
+
 ## Project Management & Development Iterations
 
 ### Iteration 1 Performance
