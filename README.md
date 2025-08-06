@@ -1,5 +1,8 @@
 ## 👥 Team Roles and Contributions
 
+### **Class - B**
+### **Group - 4**
+
 ### **Thant Thu Aung** (Student ID: 14674144)  
 **Role:** Full-Stack Developer, SCRUM Coordinator, and Documentation Lead  
 
@@ -21,7 +24,7 @@
 
 ---
 
-### **Sein Linnn** (Student ID: 11111111)  
+### **Sein Linnn** (Student ID: 14742770)  
 **Role:** Full-Stack Developer and System Designer  
 
 **Responsibilities:**
